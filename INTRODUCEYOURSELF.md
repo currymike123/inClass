@@ -1,4 +1,4 @@
-![Mike Curry](https://github.com/currymike123/inClass/blob/main/IMG_2569.jpg =100x)
+![Mike Curry](https://github.com/currymike123/inClass/blob/main/IMG_2569.jpg)
 
 I have an undergraduate degree in Digital Art from The College of New Jersey (2005).  I spent the next 10 years of my career as a photographic retoucher. Exhibition printer, and Colorist.  Around 2015 I started to get back into coding and took the CS50 course on edx.org.  I was hooked from there and taught myself web programming and image manipulation mainly using [Processing](https://processing.org/) a Java coding framework and it’s JavaScript cousin [p5.js](https://p5js.org/).  
 
