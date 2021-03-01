@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import Documentation from "@/views/Documentation.vue";
+import MyWall from '@/views/MyWall';
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/documentation',
     name: 'Doc',
     component: Documentation
+  },
+  {
+    path: '/mywall',
+    name: 'MyWall',
+    component: MyWall
   },
   {
     path: '/about',
