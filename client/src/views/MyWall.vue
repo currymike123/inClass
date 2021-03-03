@@ -103,16 +103,14 @@
 </template>
 
 <script>
-import ContentCard from "../components/ContentCard"
+import ContentCard from "../components/ContentCard";
 
 export default {
     data: ()=>({
-        newPosts: [
-            {
-            user: {
-
-            }
-        }],
+        newPost: {
+            
+            user: { }
+        },
         posts: [
             {
                 src: "https://bulma.io/images/placeholders/1280x960.png",
