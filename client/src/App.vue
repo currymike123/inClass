@@ -1,19 +1,20 @@
 <template>
   <div id="app">
-    <Nav />
-
-   <div class="container">
-    <router-view/>
+    <MyNav />
+    <div class="container">
+      <router-view/>
     </div>
+
+
   </div>
 </template>
 
 <script>
-import Nav from "./components/Nav";
+import MyNav from "./components/Nav";
 
 export default {
   components: {
-    Nav
+    MyNav
   }
 }
 </script>
@@ -21,4 +22,3 @@ export default {
 <style lang="scss">
 
 </style>
-np
