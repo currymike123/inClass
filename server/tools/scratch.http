@@ -25,8 +25,8 @@ POST http://localhost:3000/users/login
 Content-Type: application/json
 
 {
-    "handle": "@potus",
-    "password": "DrJill"
+    "handle": "@mike",
+    "password": "DrJill123"
 }
 
 ###
@@ -48,3 +48,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaXJzdE5hbWUiOiJKb
     "time": "Mon Mar 22 2021 14:23:35 GMT-0400 (Eastern Daylight Time)",
     "user_handle": "@vp"
 }
+
+###
+GET http://localhost:3000/users
+Content-Type: application/json
